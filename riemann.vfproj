@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{DB9C48CA-26DE-4261-BE00-B31E5B484777}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" PreprocessorDefinitions="WIN" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Debug|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc">
+		<Filter Name="computing_module">
+		<File RelativePath="..\NRG\computing_module\src\current_build\cabaret_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\chemical_kinetics_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\coarse_particles_method.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\cpm_low_mach_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\cpm_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\d1mach.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\daxpy.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddcor.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddcst.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddntl.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddntp.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddot.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddpsc.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddpst.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddriv3.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddscl.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddstp.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\ddzro.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\dgbfa.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\dgbsl.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\dgefa.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\dgesl.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\dnrm2.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\droplets_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\dscal.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\fds_low_mach_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\fdump.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\fickean_diffusion_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\fourier_heat_transfer_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\i1mach.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\idamax.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\implicit_fourier_heat_transfer_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\j4save.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\lagrangian_droplets_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\lagrangian_particles_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\particles_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\riemann_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\table_approximated_real_gas.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\current_build\viscosity_solver.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\xercnt.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\xerhlt.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\xermsg.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\xerprn.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\xersve.f90"/>
+		<File RelativePath="..\NRG\computing_module\src\third_party\slatec\xgetua.f90"/></Filter>
+		<Filter Name="package_interface">
+		<File RelativePath=".\main.f90"/></Filter>
+		<Filter Name="package_library">
+		<File RelativePath="..\NRG\package_library\src\boundary_conditions_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\boundary_type_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\chemical_properties_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\computational_domain_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\computational_mesh_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\data_io_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\data_manager_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\data_save_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\field_pointers.f90"/>
+		<File RelativePath="..\NRG\package_library\src\field_scalar_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\field_tensor_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\field_vector_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\global_data.f90"/>
+		<File RelativePath="..\NRG\package_library\src\kind_parameters.f90"/>
+		<File RelativePath="..\NRG\package_library\src\mpi_communications_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\post_processor_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\post_processor_manager_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\post_processor_operation_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\solver_options_class.f90"/>
+		<File RelativePath="..\NRG\package_library\src\thermophysical_properties_class.f90"/></Filter></Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files"/>
+	</Files>
+	<Globals/>
+</VisualStudioProject>
